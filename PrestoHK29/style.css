@@ -1,0 +1,127 @@
+a:link {
+    text-decoration: none;
+    color: var(--fourth);
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--fourth);
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--fourth);
+
+}
+
+a:active {
+    text-decoration: none;
+    color: var(--fourth);
+
+}
+*{
+    font-family: 'Recia', serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+a, img, strong {
+    display: inline-block;
+}
+h1,h2,h3,h4{
+    font-family: 'Supreme', sans-serif;
+}
+:root{
+    --first: #7D0A0A;
+    --second: #BF3131;
+    --third: #EAD196;
+    --fourth: #F3EDC8;
+    font-size: 16px;
+}
+body{
+    background-color: var(--fourth);
+}
+.navbar-classes{
+    background-color: var(--first);
+    font-size: 1.0rem;
+    padding: 1.5rem;
+    display: flex;
+    position: fixed;
+    gap: 2.5rem;
+    z-index: 1000;
+    width: 100vw;
+    transition: 0.5s;
+
+}
+.nav-main-button{
+    font-weight: bold;
+}
+.scrolledNavbar{
+    background-color: var(--first);
+    font-size: 1.0rem;
+    padding: 1.5rem;
+    display: flex;
+    gap: 2.5rem;
+    position: fixed;
+    z-index: 1000;
+    width: 23vw;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    border-radius: 25px;
+    transition: 0.5s;
+
+}
+.button-search-classes{
+    border: none;
+    background-color: var(--first);
+    color: var(--fourth);
+}
+
+
+
+.header{
+    width: 100vw;
+    height: 100vh;
+}
+.header-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.second-header-div{
+    margin-left: 10vh;
+}
+.div-h1{
+    font-size: 9rem;
+}
+.div-h3{
+    font-size: 3rem;
+}
+.button-articles-classes{
+    margin-top: 1rem;
+    font-size: 2rem;
+    border: none;
+    background-color: var(--second);
+    color: var(--fourth);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.numbersColumn>h3{
+    font-size: 3.5rem;
+}
+.numbersColumn>p{
+    font-size: 2.0rem;
+}
+.number{
+    font-size: 3.0rem;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+}

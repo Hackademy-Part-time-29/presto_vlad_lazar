@@ -1,0 +1,132 @@
+a:link {
+    text-decoration: none;
+    color: var(--fourth);
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--fourth);
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--fourth);
+
+}
+
+a:active {
+    text-decoration: none;
+    color: var(--fourth);
+
+}
+*{
+    font-family: 'Recia', serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+a, img, strong {
+    display: inline-block;
+}
+h1,h2,h3,h4{
+    font-family: 'Supreme', sans-serif;
+}
+:root{
+    --first: #7D0A0A;
+    --second: #BF3131;
+    --third: #EAD196;
+    --fourth: #F3EDC8;
+    font-size: 16px;
+}
+.navbar-classes{
+    background-color: var(--first);
+    font-size: 1.0rem;
+    padding: 1.5rem;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    gap: 2.5rem;
+    z-index: 1000;
+    width: 100vw;
+    transition: 0.5s;
+
+}
+.nav-main-button{
+    font-weight: bold;
+}
+.scrolledNavbar{
+    background-color: var(--first);
+    font-size: 1.0rem;
+    padding: 1.5rem;
+    display: flex;
+    gap: 2.5rem;
+    position: fixed;
+    z-index: 1000;
+    width: 23vw;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    border-radius: 25px;
+    transition: 0.5s;
+
+}
+.button-search-classes{
+    border: none;
+    background-color: var(--first);
+    color: var(--fourth);
+}
+body{
+    background-color: var(--fourth);
+}
+.header{
+    padding: 10rem;
+}
+.header-div{
+    display: flex;
+    justify-content: center;
+}
+.h1-a{
+    font-size: 5rem;
+}
+.articleCard{
+    height: 25vh;
+    width: 25vh;
+    background-color: var(--second);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1.5vw;
+}
+.articleName{
+    color: var(--fourth);
+    font-weight: large;
+    font-size: larger;
+}
+.articleCategory{
+    color: var(--fourth);
+}
+.articlePrice{
+    color: var(--fourth);
+    font-size: xx-large;
+}
+.main{
+    display: flex;
+}
+.accordion-div-width{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.accordion{
+    width: 30%;
+}
+#articleWrapper{
+    max-height: 4000px;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
